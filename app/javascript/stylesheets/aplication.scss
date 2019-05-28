@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Myriad Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+  display: block;
+}
+/*FONTS///////////////
+
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+*/
+/*NAV//////////////*/
+body,
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  overflow: hidden;
+  background: url("../images/leaf.png") no-repeat bottom left, url("../images/Vector2@2x.jpg") no-repeat 0 -250px, url("../images/Vector2.1.jpg") no-repeat bottom right;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.header > .logo {
+  display: inline-block;
+  width: 10%;
+  height: 90px;
+  margin: 0 20% 0 106px;
+  float: left;
+  text-align: center;
+  padding-top: 34px;
+}
+
+.logo a {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #29344C;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+  z-index: 10;
+  float: left;
+  width: 80%;
+  height: 24px;
+  margin: 38px auto;
+}
+
+nav ul {
+  padding-top: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 12%;
+}
+
+nav li:last-of-type {
+  margin-right: 0;
+}
+
+nav li a {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #29344C;
+}
+
+nav li a:active,
+nav li a:focus,
+nav li a:hover {
+  color: #5343C6;
+}
+
+.woman-bg {
+  width: 50%;
+}
+
+.woman-bg img {
+  position: absolute;
+  right: 23px;
+  top: 26px;
+  width: 42%;
+  height: auto;
+  z-index: 1;
+}
+// /*WRAPPER//////////////*/
+
+.main-chapter {
+  width: 50%;
+}
+
+h1 {
+  position: relative;
+  z-index: 30;
+  height: 180px;
+  width: 469px;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 69px;
+  letter-spacing: 3px;
+  line-height: 90px;
+  margin: 125px 0 40px 41%;
+  color: #29344C;
+  font-weight: 900;
+}
+
+.tutoru {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.letter,
+.letter-h1 {
+  font-size: 27px;
+  font-weight: 900;
+  color: #289d59;
+}
+
+.letter-h1 {
+  font-size: 70px;
+}
+
+.lorem {
+  position: relative;
+  z-index: 30;
+  width: 470px;
+  height: 60px;
+  margin: 0 0 100px 41%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #425479;
+}
+
+.regist {
+  display: inline-block;
+  position: relative;
+  z-index: 30;
+  width: 162px;
+  height: 214px;
+  text-align: center;
+  margin-right: 96px;
+}
+
+.our-services {
+  margin: 0 0 0 20%;
+}
+
+.regist:last-of-type {
+  margin-right: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h3:hover {
+  color: #5342c6;
+}
+
+.regist img {
+  width: 75px;
+  margin-bottom: 20px;
+}
+
+.regist a {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 22px;
+  color: #29344C;
+  text-decoration: none;
+}
+
+.regist a:active,
+.regist a:hover {
+  color: #5343C6;
+}
+
+.regist p {
+  line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #425479;
+}
+// .regist:first-of-type(1) {
+//   background: url(../images/icon1.svg)no-repeat center;
+// }
+@media (max-width: 1600px) {
+  body {
+    background: url("../images/leaf.png") no-repeat bottom left, url("../images/Vector2@2x.jpg") no-repeat -574px 0, url("../images/Vector2.1.jpg") no-repeat bottom right;
+  }
+}
+@media (max-width: 1200px) {
+  body {
+    background: url("../images/leaf.png") no-repeat bottom left, url("../images/Vector2@2x.jpg") no-repeat -770px 0, url("../images/Vector2.1.jpg") no-repeat bottom right;
+  }
+
+  .header > .logo {
+    margin: 0 15% 0 106px;
+  }
+
+  h1 {
+    margin: 125px 0 40px 28%;
+  }
+
+  .lorem {
+    margin: 0 0 40px 28%;
+  }
+
+  .woman-bg {
+    position: absolute;
+    right: 18px;
+    top: 66px;
+    width: 94%;
+  }
+
+  .our-services {
+    margin: 0 0 0 14%;
+}
+}
+
+@media (max-width: 991px){
+
+    body {
+        background:
+                url(../images/leaf.png) no-repeat bottom left,
+                url(../images/Vector2@2x.jpg) no-repeat -930px 0,
+                url(../images/Vector2.1.jpg) no-repeat bottom right;
+    }
+
+    .header > .logo {
+        margin: 0 6% 0 55px;
+    }
+
+    nav {
+      position: absolute;
+      top: 0;
+      left: -100%;
+    }
+}
